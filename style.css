@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(Fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.background-inicio {
+    background-color: #787878;
+    z-index: 1;
+}
+
+.ola-sou-vitorhugo h2 {
+    font-size: 96px;
+    font-family: "Outfit";
+    color: #FFFFFF;
+}
+
+.ola-sou-vitorhugo p {
+    font-size: 64px;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+}
