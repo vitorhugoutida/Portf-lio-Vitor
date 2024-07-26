@@ -80,67 +80,14 @@ body {
     font-weight: normal;
 }
 
-
 #inicio-ola img {
     width: 595px;
     height: 595px;
     border-radius: 360px;
-    
     display: flex;
     justify-content: end;
     margin-right: 100px;
 }
-
-
-
-
-/* .primeiro-section-ola {
-    padding-top: 320px;
-}
-
-.ola-sou-vitorhugo {
-    display: unset;
-}
-
-.texto-ola h1 {
-    font-size: 96px;
-    font-family: "Outfit";
-    color: #FFFFFF;
-    font-weight: normal;
-}
-
-.sou-vitor {
-    display: flex;
-    justify-content: baseline;
-}
-
-.sou-vitor h2 {
-    font-size: 64px;
-    font-family: "Outfit";
-    color: #FFFFFF;
-    margin-right: 15px;
-    font-weight: normal;
-}
-
-.sou-vitor h3 {
-    font-size: 64px;
-    font-family: "Outfit";
-    color: #FF6332;
-    font-weight: normal;
-}
-
-.primeiro-section-ola {
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.primeiro-section-ola img {
-    width: 595px;
-    height: 595px;
-    border-radius: 360px;
-    /* position: absolute; */
-
 
 #sobre-mim {
     width: 1920px;
@@ -167,14 +114,12 @@ body {
     justify-content: center; */
     height: 80px;
     width: 600px;
-
 }
 
 .dois-grupos-texto {
     margin-top: 85px;
     width: 760px;
     height: 600px;
-    
 }
 
 .nome, .idade, .local, .email, .tempo-exp {
@@ -204,16 +149,11 @@ body {
     height: 60px;
 }
 
-/* .tempo-exp {
-    
-} */
-
 .nome h1, .idade h1, .local h1, .email h1, .tempo-exp h1 {
     font-size: 48px;
     font-family: "Outfit";
     font-weight: normal;
     color: #FFFFFF;
-    
 }
 
 .nome h2, .idade h2, .local h2, .email h2, .tempo-exp h2 {
@@ -225,75 +165,112 @@ body {
     margin-top: 10px;
 }
 
-.linha-laranja {
+#linha-vertical {
     width: 8px;
-    height: 612px;
-    color: #FF6332;
+    height: 700px;
+    border-right: 6px solid #FF6332;
+    margin-left: 780px;
+    margin-right: 810px;
+    margin-top: -612px;
+}
+
+.texto-sobre {
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 820px;
+    margin-top: -695px;
+    width: 710px;   
+}
+
+.texto-sobre p {
+    margin-bottom: 32px;
+    text-align: justify;
+}
+
+#habilidade-conhecimento {
+    width: 1920px;
+    height: 1080px;
+    padding-top: 85px;
     
-    margin-left: 1000px;
-    position: absolute;
-    z-index: 4;
-
-    
 }
 
-/* .idade {
+.terceiro-section-habilidade h1 {
+    font-size: 64px;
+    font-family: "Outfit";
+    font-weight: normal;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.icones-habilidade {
+    display: flex;
+    justify-content: center;
+}
+
+.icone-html, .icone-css, .icone-java, .icone-ts, .icone-github {
+    width: 100px;
+    height: 100px;
+    background-color: #535353;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.grupo-html-segundo, .grupo-css-segundo, .grupo-java-segundo, .grupo-ts-segundo, .grupo-github-segundo {
     display: flex;
     justify-content: baseline;
-    align-items: center; 
+    align-items: center;
 }
 
-.idade h1 {
-    font-size: 48px;
-}
-
-.idade h2 {
-    font-size: 32px;
+.grupo-html-segundo h1, .grupo-css-segundo h1, .grupo-java-segundo h1, .grupo-ts-segundo h1, .grupo-github-segundo h1 {
+    font-size: 40px;
     font-family: "Montserrat";
     font-weight: normal;
     color: #FFFFFF;
+    margin-left: 55px;
 }
 
-.local {
+.barra-html, .barra-css, .barra-java, .barra-java-segundo, .barra-ts, .barra-ts-segundo, .barra-github {
+    background-color: #FF6332;
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.grupo-barra-html, .grupo-barra-css, .grupo-barra-java, .grupo-barra-ts, .grupo-barra-github {
     display: flex;
     justify-content: baseline;
-    align-items: center; 
 }
 
-.local h1 {
-    font-size: 48px;
-}
-
-.local h2 {
-    font-size: 32px;
+.grupo-barra-html p, .grupo-barra-css p, .grupo-barra-java p, .grupo-barra-ts p, .grupo-barra-github p {
+    font-size: 40px;
     font-family: "Montserrat";
     font-weight: normal;
     color: #FFFFFF;
+    height: 40px;
+    top: 10px;
+    margin-top: 35px;
+    margin-left: 35px;
 }
 
-.email {
-    display: flex;
-    justify-content: baseline;
-    align-items: center; 
+.barra-java, .barra-ts {
+    background-color: #FF633250;
+
 }
 
-.email h1 {
-    font-size: 48px;
+.barra-java-segundo, .barra-ts-segundo {
+    width: 420px;
+    opacity: 100%;
+    margin: 0px;
 }
 
-.email h2 {
-    font-size: 32px;
-    font-family: "Montserrat";
-    font-weight: normal;
-    color: #FFFFFF;
-}
-
-.tempo-exp {
-    display: flex;
-    justify-content: baseline;
-    align-items: center; 
-}
-
-.tempo-exp h1 {
-    font-size: 48px;
-} */
