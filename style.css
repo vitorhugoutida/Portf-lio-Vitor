@@ -18,25 +18,240 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #787878;
+}
+
 .container-grid{
     width: 80vw;
-    max-width: 1400px;
+    max-width: 1620px;
     margin: 0 auto;
 }
 
-.background-inicio {
-    background-color: #787878;
-    z-index: 1;
+.container-grid-center { 
+    width: 80vw;
+    max-width: 1620px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
-.ola-sou-vitorhugo h2 {
+#inicio-ola {
+    width: 1920px;
+    height: 1080px;
+}
+
+.texto-e-foto-ola {
+    height: 1080px;
+    display: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -80px;
+    position: absolute;
+    max-width: 1620px;
+    width: 1920px;
+}
+
+.texto-ola-segundo h1 {
+    font-size: 96px;
+    color: #ffff;
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+.texto-sou-vitor {
+    display: flex;
+    justify-content: baseline;
+}
+
+.texto-sou-vitor h1 {
+    font-size: 64px;
+    color: #ffff;
+    font-family: "Outfit";
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+.texto-sou-vitor h2 {
+    font-size: 64px;
+    color: #FF6332;
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+
+#inicio-ola img {
+    width: 595px;
+    height: 595px;
+    border-radius: 360px;
+    
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+
+
+
+/* .primeiro-section-ola {
+    padding-top: 320px;
+}
+
+.ola-sou-vitorhugo {
+    display: unset;
+}
+
+.texto-ola h1 {
     font-size: 96px;
     font-family: "Outfit";
     color: #FFFFFF;
+    font-weight: normal;
 }
 
-.ola-sou-vitorhugo p {
+.sou-vitor {
+    display: flex;
+    justify-content: baseline;
+}
+
+.sou-vitor h2 {
     font-size: 64px;
+    font-family: "Outfit";
+    color: #FFFFFF;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.sou-vitor h3 {
+    font-size: 64px;
+    font-family: "Outfit";
+    color: #FF6332;
+    font-weight: normal;
+}
+
+.primeiro-section-ola {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.primeiro-section-ola img {
+    width: 595px;
+    height: 595px;
+    border-radius: 360px;
+    /* position: absolute; */
+
+
+#sobre-mim {
+    width: 1920px;
+    height: 1080px;
+    background-color: #535353;
+    z-index: 1;
+    display: unset;
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+.segundo-section-sobre-mim h1 {
+    font-size: 64px;
+    font-family: "Outfit";
+    font-weight: normal;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dois-grupos-texto {
+    margin-top: 85px;
+}
+
+.nome, .idade, .local, .email, .tempo-exp {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.nome h1, .idade h1, .local h1, .email h1, .tempo-exp h1 {
+    font-size: 48px;
+}
+
+.nome h2, .idade h2, .local h2, .email h2, .tempo-exp h2 {
+    font-size: 32px;
     font-family: "Montserrat";
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.linha-laranja {
+    width: 8px;
+    height: 612px;
+    color: #FF6332;
+    display: flex;
+    justify-content: center;
+    justify-content: baseline;
+}
+
+/* .idade {
+    display: flex;
+    justify-content: baseline;
+    align-items: center; 
+}
+
+.idade h1 {
+    font-size: 48px;
+}
+
+.idade h2 {
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: normal;
     color: #FFFFFF;
 }
+
+.local {
+    display: flex;
+    justify-content: baseline;
+    align-items: center; 
+}
+
+.local h1 {
+    font-size: 48px;
+}
+
+.local h2 {
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.email {
+    display: flex;
+    justify-content: baseline;
+    align-items: center; 
+}
+
+.email h1 {
+    font-size: 48px;
+}
+
+.email h2 {
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.tempo-exp {
+    display: flex;
+    justify-content: baseline;
+    align-items: center; 
+}
+
+.tempo-exp h1 {
+    font-size: 48px;
+} */
