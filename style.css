@@ -153,18 +153,28 @@ body {
     padding-top: 85px;
 }
 
-.segundo-section-sobre-mim h1 {
+.segundo-section-sobre-mim-segundo {
+    display: flex;
+    justify-content: center;
+}
+
+.segundo-section-sobre-mim-segundo h1 {
     font-size: 64px;
     font-family: "Outfit";
     font-weight: normal;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    height: 80px;
+    width: 600px;
 
 }
 
 .dois-grupos-texto {
     margin-top: 85px;
+    width: 760px;
+    height: 600px;
+    
 }
 
 .nome, .idade, .local, .email, .tempo-exp {
@@ -174,8 +184,36 @@ body {
     margin-bottom: 65px;
 }
 
+.nome {
+    width: 682px;
+    height: 60px;
+}
+
+.idade {
+    width: 319px;
+    height: 60px;
+}
+
+.local {
+    width: 759px;
+    height: 60px;
+}
+
+.email {
+    width: 614px;
+    height: 60px;
+}
+
+/* .tempo-exp {
+    
+} */
+
 .nome h1, .idade h1, .local h1, .email h1, .tempo-exp h1 {
     font-size: 48px;
+    font-family: "Outfit";
+    font-weight: normal;
+    color: #FFFFFF;
+    
 }
 
 .nome h2, .idade h2, .local h2, .email h2, .tempo-exp h2 {
@@ -184,15 +222,19 @@ body {
     font-weight: normal;
     color: #FFFFFF;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .linha-laranja {
     width: 8px;
     height: 612px;
     color: #FF6332;
-    display: flex;
-    justify-content: center;
-    justify-content: baseline;
+    
+    margin-left: 1000px;
+    position: absolute;
+    z-index: 4;
+
+    
 }
 
 /* .idade {
