@@ -22,13 +22,13 @@ body {
     background-color: #787878;
 }
 
-.container-grid{
+.container-grid {
     width: 80vw;
     max-width: 1620px;
     margin: 0 auto;
 }
 
-.container-grid-center { 
+.container-grid-center {
     width: 80vw;
     max-width: 1620px;
     margin: 0 auto;
@@ -122,7 +122,11 @@ body {
     height: 600px;
 }
 
-.nome, .idade, .local, .email, .tempo-exp {
+.nome,
+.idade,
+.local,
+.email,
+.tempo-exp {
     display: flex;
     justify-content: baseline;
     align-items: center;
@@ -149,14 +153,22 @@ body {
     height: 60px;
 }
 
-.nome h1, .idade h1, .local h1, .email h1, .tempo-exp h1 {
+.nome h1,
+.idade h1,
+.local h1,
+.email h1,
+.tempo-exp h1 {
     font-size: 48px;
     font-family: "Outfit";
     font-weight: normal;
     color: #FFFFFF;
 }
 
-.nome h2, .idade h2, .local h2, .email h2, .tempo-exp h2 {
+.nome h2,
+.idade h2,
+.local h2,
+.email h2,
+.tempo-exp h2 {
     font-size: 32px;
     font-family: "Montserrat";
     font-weight: normal;
@@ -183,7 +195,7 @@ body {
     margin-top: 10px;
     margin-left: 820px;
     margin-top: -695px;
-    width: 710px;   
+    width: 710px;
 }
 
 .texto-sobre p {
@@ -195,7 +207,7 @@ body {
     width: 1920px;
     height: 1080px;
     padding-top: 85px;
-    
+
 }
 
 .terceiro-section-habilidade h1 {
@@ -212,7 +224,16 @@ body {
     justify-content: center;
 }
 
-.icone-html, .icone-css, .icone-java, .icone-ts, .icone-github {
+.icone-html,
+.icone-css,
+.icone-java,
+.icone-ts,
+.icone-github,
+.icone-figma,
+.icone-vsc,
+.icone-trello,
+.icone-miro,
+.icone-git {
     width: 100px;
     height: 100px;
     background-color: #535353;
@@ -224,13 +245,45 @@ body {
 
 }
 
-.grupo-html-segundo, .grupo-css-segundo, .grupo-java-segundo, .grupo-ts-segundo, .grupo-github-segundo {
+.grupo-html,
+.grupo-css,
+.grupo-java,
+.grupo-ts,
+.grupo-github,
+.grupo-figma,
+.grupo-vsc,
+.grupo-trello,
+.grupo-miro,
+.grupo-git {
+    width: 770px;
+    margin-top: 50px;
+}
+
+.grupo-html-segundo,
+.grupo-css-segundo,
+.grupo-java-segundo,
+.grupo-ts-segundo,
+.grupo-github-segundo,
+.grupo-figma-segundo,
+.grupo-vsc-segundo,
+.grupo-trello-segundo,
+.grupo-miro-segundo,
+.grupo-git-segundo {
     display: flex;
     justify-content: baseline;
     align-items: center;
 }
 
-.grupo-html-segundo h1, .grupo-css-segundo h1, .grupo-java-segundo h1, .grupo-ts-segundo h1, .grupo-github-segundo h1 {
+.grupo-html-segundo h1,
+.grupo-css-segundo h1,
+.grupo-java-segundo h1,
+.grupo-ts-segundo h1,
+.grupo-github-segundo h1,
+.grupo-figma-segundo h1,
+.grupo-vsc-segundo h1,
+.grupo-trello-segundo h1,
+.grupo-miro-segundo h1,
+.grupo-git-segundo h1 {
     font-size: 40px;
     font-family: "Montserrat";
     font-weight: normal;
@@ -238,7 +291,19 @@ body {
     margin-left: 55px;
 }
 
-.barra-html, .barra-css, .barra-java, .barra-java-segundo, .barra-ts, .barra-ts-segundo, .barra-github {
+.barra-html,
+.barra-css,
+.barra-java,
+.barra-java-segundo,
+.barra-ts,
+.barra-ts-segundo,
+.barra-git-segundo,
+.barra-github,
+.barra-figma,
+.barra-vsc,
+.barra-trello,
+.barra-miro,
+.barra-git {
     background-color: #FF6332;
     width: 600px;
     height: 25px;
@@ -247,12 +312,30 @@ body {
 
 }
 
-.grupo-barra-html, .grupo-barra-css, .grupo-barra-java, .grupo-barra-ts, .grupo-barra-github {
+.grupo-barra-html,
+.grupo-barra-css,
+.grupo-barra-java,
+.grupo-barra-ts,
+.grupo-barra-github,
+.grupo-barra-figma,
+.grupo-barra-vsc,
+.grupo-barra-trello,
+.grupo-barra-miro,
+.grupo-barra-git {
     display: flex;
     justify-content: baseline;
 }
 
-.grupo-barra-html p, .grupo-barra-css p, .grupo-barra-java p, .grupo-barra-ts p, .grupo-barra-github p {
+.grupo-barra-html p,
+.grupo-barra-css p,
+.grupo-barra-java p,
+.grupo-barra-ts p,
+.grupo-barra-github p,
+.grupo-barra-figma p,
+.grupo-barra-vsc p,
+.grupo-barra-trello p,
+.grupo-barra-miro p,
+.grupo-barra-git p {
     font-size: 40px;
     font-family: "Montserrat";
     font-weight: normal;
@@ -263,14 +346,37 @@ body {
     margin-left: 35px;
 }
 
-.barra-java, .barra-ts {
+.barra-java,
+.barra-ts,
+.barra-git {
     background-color: #FF633250;
 
 }
 
-.barra-java-segundo, .barra-ts-segundo {
+.barra-java-segundo,
+.barra-ts-segundo {
     width: 420px;
     opacity: 100%;
     margin: 0px;
+}
+
+.barra-git-segundo {
+    width: 480px;
+    opacity: 100%;
+    margin: 0px;
+}
+
+.linha-vertical-habilidade {
+    width: 6px;
+    height: 1130px;
+    background-color: #FF6332;
+    margin-left: 810px;
+    margin-top: -1080px;
+
+}
+
+.grupo-segundo-habilidade {
+    margin-left: 875px;
+    margin-top: -1175px;
 }
 
