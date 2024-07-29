@@ -845,3 +845,148 @@ body {
         scale: 70%;
     }
 }
+
+@media screen and (max-width: 1050px) {
+    .terceiro-section-habilidade h1 {
+        width: max-content;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .texto-e-foto-ola {
+        scale: 55%;
+        margin-top: -165px;
+        margin-left: 20px;
+    }
+    #inicio-ola {
+        height: 600px;
+    }
+    .segundo-section-sobre-mim {
+        scale: 55%;
+        margin-left: -240px;
+    }
+    .segundo-section-sobre-mim-segundo {
+        margin-top: -200px;
+
+    }
+
+    .segundo-section-sobre-mim-segundo h1 {
+        margin-left: 650px;
+        scale: 200%;
+        margin-left: 650px;
+        font-size: 32px;
+        margin-top: 40px;
+    }
+    #sobre-mim {
+        height: 580;
+    }
+    .grupo-dois-habilidades {
+        scale: 50%;
+        margin-top: -300px;
+        margin-left: -265px;
+    }
+    #habilidade-conhecimento {
+        height: 800px;
+    }
+    .quarto-section-portfolio {
+        margin-top: -55px;
+    }
+    .quarto-section-portfolio h1 {
+        scale: 70%;
+
+    }
+    .grupo-portfolio {
+        scale: 48%;
+        margin-top: -475px;
+        margin-left: -245px;
+    }
+    .grupo-contatos {
+        scale: 55%;
+        margin-left: -170px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .texto-e-foto-ola {
+        scale: 50%;
+    }
+    .segundo-section-sobre-mim {
+        scale: 50%;
+    }
+    #sobre-mim {
+        height: 550px;
+    }
+    .terceiro-section-habilidade {
+        margin-top: -40px;
+        scale: 60%;
+    }
+    .icones-habilidade {
+        scale: 65%;
+    }
+    .grupo-dois-habilidades {
+        scale: 42%;
+        margin-left: -225px;
+        margin-top: -330px;
+
+    }
+    #habilidade-conhecimento {
+        height: 750px;
+    }
+    .quarto-section-portfolio h1 {
+        scale: 55%;
+    }
+    .grupo-portfolio {
+        scale: 44%;
+        margin-top: -510px;
+        margin-left: -235px;
+    }
+    #portfolio {
+        height: 760px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .texto-e-foto-ola {
+        scale: 45%;
+        margin-top: -205px;
+    }
+    #inicio-ola {
+        height: 500px;
+    }
+    .segundo-section-sobre-mim {
+        margin-top: -220px;
+        scale: 45%;
+    }
+    .grupo-dois-habilidades {
+        scale: 40%;
+    }
+    .quarto-section-portfolio h1 {
+        scale: 50%;
+    }
+    .grupo-portfolio {
+        scale: 40%;
+        margin-left: -215px;
+        margin-top: -530px;
+    }
+    .quinto-section-contatos h1 {
+        scale: 50%;
+        margin-top: -30px;
+
+    }
+    .quarto-section-portfolio {
+        height: 100px;
+    }
+    .grupo-contatos {
+        scale: 45%;
+        margin-top: -45px;
+    }
+    #contatos {
+        height: 100px;
+    }
+}
+
+
+
+
+
