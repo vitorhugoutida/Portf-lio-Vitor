@@ -503,6 +503,12 @@ body {
     height: 80px;
 }
 
+@media screen and (max-width: 1920px) {
+    .grupo-contatos {
+        margin-left: 150px;
+    }
+}
+
 @media screen and (max-width: 1850px) {
     .grupo-dois-habilidades {
         margin-left: -70px;
@@ -574,7 +580,6 @@ body {
     }
     #habilidade-conhecimento {
         height: 1480px;
-
     }
     .grupo-dois-habilidades {
         scale: 90%;
@@ -585,7 +590,6 @@ body {
     }
     .grupo-github-contatos {
         margin-left: 190px;
-
     }
 }
 
@@ -773,13 +777,11 @@ body {
     }
     #inicio-ola {
         height: 680px;
-        
     }
     #sobre-mim {
         padding-top: 40px;
         height: 700px;
     }
-    
     .segundo-section-sobre-mim {
         scale: 60%;
     }
@@ -789,7 +791,6 @@ body {
     #habilidade-conhecimento {
         height: 820px;
     }
-
     .grupo-dois-habilidades {
         scale: 55%;
         margin-top: -270px;
@@ -831,7 +832,6 @@ body {
     .quarto-section-portfolio h1 {
         scale: 70%;
         margin-left: 45px;
-
     }
     .grupo-portfolio {
         scale: 50%;
@@ -867,9 +867,7 @@ body {
     }
     .segundo-section-sobre-mim-segundo {
         margin-top: -200px;
-
     }
-
     .segundo-section-sobre-mim-segundo h1 {
         margin-left: 650px;
         scale: 200%;
@@ -893,7 +891,6 @@ body {
     }
     .quarto-section-portfolio h1 {
         scale: 70%;
-
     }
     .grupo-portfolio {
         scale: 48%;
@@ -904,7 +901,6 @@ body {
         scale: 55%;
         margin-left: -170px;
     }
-
 }
 
 @media screen and (max-width: 950px) {
@@ -928,7 +924,6 @@ body {
         scale: 42%;
         margin-left: -225px;
         margin-top: -330px;
-
     }
     #habilidade-conhecimento {
         height: 750px;
@@ -972,7 +967,6 @@ body {
     .quinto-section-contatos h1 {
         scale: 50%;
         margin-top: -30px;
-
     }
     .quarto-section-portfolio {
         height: 100px;
@@ -999,7 +993,6 @@ body {
     #sobre-mim {
         height: 500px;
     }
-
 }
 
 @media screen and (max-width: 850px) {
@@ -1048,7 +1041,6 @@ body {
     }
     .quarto-section-portfolio h1 {
         scale: 40%; 
-
     }
     .grupo-portfolio {
         scale: 33%;
@@ -1095,7 +1087,6 @@ body {
         scale: 30%;
         margin-top: -620px;
         margin-left: -240px;
-
     }
 }
 
@@ -1118,7 +1109,6 @@ body {
     #sobre-mim {
         height: 350px;
     }
-
     .terceiro-section-habilidade {
         margin-top: -60px;
     }
@@ -1128,13 +1118,11 @@ body {
     }
     .icones-habilidade {
         scale: 35%;
-        
     }
     .grupo-dois-habilidades {
         scale: 26%;
         margin-top: -450px;
         margin-left: -240px;
-
     }
     #habilidade-conhecimento {
         height: 450px;
@@ -1172,6 +1160,179 @@ body {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .segundo-section-sobre-mim {
+        scale: 26%;
+        margin-top: -280px;
+    }
+    .segundo-section-sobre-mim-segundo  h1 {
+        margin-left: 900px;
+    }
+    #sobre-mim {
+        height: 300px;
+    }
+    .terceiro-section-habilidade h1 {
+        scale: 52%;
+        margin-left: -122px;
+        margin-top: -100px;
+    }
+    .icones-habilidade {
+        scale: 28%;
+        margin-top: -40px;
+    }
+    .grupo-dois-habilidades {
+        scale: 22%;
+        margin-top: -475px;
+        margin-left: -222px;
+    }
+    #habilidade-conhecimento {
+        height: 400px;
+    }
+    .quarto-section-portfolio h1 {
+        scale: 26%;
+    } 
+    .grupo-portfolio {
+        scale: 22%;
+        margin-top: -685px;
+        margin-left: -232px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .texto-e-foto-ola {
+        scale: 20%;
+        margin-top: -350px;
+    }
+    #inicio-ola {
+        height: 222px;
+    }
+    .dois-grupos-texto {
+        position: absolute;
+        margin-left: 360px;
+        margin-top: -955px;
+        scale: 125%;
+    }
+    .segundo-section-sobre-mim {
+        margin-top: 500px;
+    }
+    .segundo-section-sobre-mim-segundo h1 {
+        margin-top: -1075px;
+        scale: 200%;
+    }
+    #sobre-mim {
+        height: 580px;
+    }
+    #linha-vertical {
+        margin-left: 170px;
+        height: 6px;
+        width: 1150px;
+        background-color: #FF6332;
+        margin-top: -275px;
+    }
+    .texto-sobre {
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 400px;
+        scale: 140%;
+    }
+    .terceiro-section-habilidade h1 {
+        scale: 50%;
+        margin-left: -165px;
+    }
+    .grupo-primeiro-habilidade {
+        scale: 150%;
+        position: absolute;
+        margin-top: 2400px;
+        margin-left: 405px;
+
+    }
+    #habilidade-conhecimento {
+        height: 860px;
+    }
+    .linha-vertical-habilidade {
+        display: none;
+    }
+    .grupo-segundo-habilidade {
+        position: absolute;
+        margin-top: 4080px;
+        margin-left: 405px;
+        scale: 150%;
+    }
+    #portfolio {
+        height: 1065px;
+    }
+    .grupo-um-portfolio {
+        position: absolute;
+        scale: 150%;
+        margin-top: 1480px;
+        margin-left: 380px;
+        
+    }
+    .grupo-dois-portfolio {
+        position: absolute;
+        scale: 150%;
+        margin-top: 2500px;
+        margin-left: 380px;
+    }
+    .grupo-tres-portfolio {
+        position: absolute;
+        scale: 150%;
+        margin-top: 3740px;
+        margin-left: 380px;
+    }
+    .grupo-quatro-portfolio {
+        position: absolute;
+        scale: 150%;
+        margin-top: 4900px;
+        margin-left: 380px;
+    }
+    .grupo-portfolio {
+        margin-top: -400px;
+    }
+    .quinto-section-contatos h1 {
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    .grupo-whatsapp {
+        position: absolute;
+        scale: 150%;
+        margin-top: 0px;
+        margin-left: 50px;
+
+    }
+    .grupo-email {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 90px;
+        scale: 150%;
+    }
+    .grupo-discord {
+        position: absolute;
+        margin-top: 265px;
+        margin-left: 40px;
+        scale: 150%;
+    }
+    #contatos {
+        height: 250px;
+    }
+    .grupo-github-contatos {
+        position: absolute;
+        margin-top: 430px;
+        margin-left: 50px;
+        scale: 150%;
+    }
+    .quinto-section-contatos {
+        margin-top: -25px;
+    }
+    .grupo-contatos {
+        margin-top: -15px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .texto-e-foto-ola {
+        scale: 17%;
+    }
+}
 
 
 
